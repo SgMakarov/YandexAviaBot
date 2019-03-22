@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
-const token = process.env.TOKEN
+const TOKEN = process.env.TOKEN
 const {exec} = require('child_process');
-const bot = new TelegramBot(token, {
+const bot = new TelegramBot(TOKEN, {
     polling: true
 });
 const initlalMessageRegExp = new RegExp('/tickets ([\\w|а-я|А-Я]+)\\s+([\\w|а-я|А-я]+)', 'i');
