@@ -5,6 +5,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+#Docker and internal files
+*.txt
+*.png
+Procfile
+
 # Runtime data
 pids
 *.pid
